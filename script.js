@@ -1,6 +1,5 @@
-const API_KEY = "YOUR_API_KEY";
 const cityLocation = "Paris";
-const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${cityLocation}&aqi=yes`;
+const URL = `https://api.weatherapi.com/v1/current.json?key=a2c53f62e74c4cf084d71833250304&q=${cityLocation}&aqi=yes`;
 
 const fetchWeather = async () => {
     try {
